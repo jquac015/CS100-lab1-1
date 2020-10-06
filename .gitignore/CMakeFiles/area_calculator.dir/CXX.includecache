@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/csmajs/jquac015/CS100-lab1/header/rectangle.hpp
+
+/home/csmajs/jquac015/CS100-lab1/src/main.cpp
+iostream
+-
+../header/rectangle.hpp
+/home/csmajs/jquac015/CS100-lab1/header/rectangle.hpp
+
+/home/csmajs/jquac015/CS100-lab1/src/rectangle.cpp
+../header/rectangle.hpp
+/home/csmajs/jquac015/CS100-lab1/header/rectangle.hpp
+

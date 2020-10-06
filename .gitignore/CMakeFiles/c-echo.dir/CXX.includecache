@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/csmajs/jquac015/CS100-lab1/c-echo.h
+iostream
+-
+
+/home/csmajs/jquac015/CS100-lab1/main2.cpp
+c-echo.h
+/home/csmajs/jquac015/CS100-lab1/c-echo.h
+
